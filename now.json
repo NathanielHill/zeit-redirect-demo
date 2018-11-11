@@ -1,5 +1,5 @@
 {
-  "name": "naked-redirect-test",
+  "name": "zeit-naked-redirect-demo",
   "alias": "example.com",	
   "version": 2,
   "routes": [
