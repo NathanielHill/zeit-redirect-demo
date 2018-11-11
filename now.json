@@ -1,0 +1,15 @@
+{
+  "name": "naked-redirect-test",
+  "alias": "example.com",	
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.example.com/$1",
+        "Cache-Control": "public, immutable, s-maxage=31536000"
+      }
+    }
+  ]
+}
